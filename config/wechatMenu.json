@@ -1,0 +1,43 @@
+{
+  "button": [{
+    "type": "click",
+    "name": "玩活动",
+    "key": "BYT-PLAYGAME"
+  },
+  {
+    "name": "看产品",
+    "sub_button": [{
+      "type": "view",
+      "name": "产品展示",
+      "url": "http://www.kirochen.com"
+    },
+    {
+      "type": "view",
+      "name": "京东购买",
+      "url": "http://www.kirochen.com"
+    }]
+  },
+  {
+    "name": "找客服",
+    "sub_button": [{
+      "type": "click",
+      "name": "客服在线",
+      "key": "BYT-CUSTOMER"
+    },
+    {
+      "type": "view",
+      "name": "操作视频",
+      "url": "http://www.kirochen.com"
+    },
+    {
+      "type": "view",
+      "name": "快速入门",
+      "url": "http://www.kirochen.com"
+    },
+    {
+      "type": "view",
+      "name": "APP下载",
+      "url": "http://www.kirochen.com"
+    }]
+  }]
+}

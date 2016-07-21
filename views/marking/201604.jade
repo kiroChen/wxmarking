@@ -1,0 +1,413 @@
+doctype html
+html
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='apple-mobile-web-app-status-bar-style', content='black')
+    title 踏青有奖：10000个微信私包任性派，欢酷儿童电话手表免费拿！
+    link(rel='stylesheet', type='text/css', href='/css/h5_walk.css')
+    link(rel='stylesheet', type='text/css', href='/css/onepage-scroll.css')
+    link(rel='stylesheet', href='/css/animate.min.css')
+    script(src='/js/jquery-1.11.0.min.js')
+    script(type='text/javascript', src='/js/jquery.onepage-scroll.js')
+    script(type='text/javascript',src='/js/easing.js')
+  body
+    // 音乐播放
+    div
+      img.stand_music.rotate(src='/images/201604/music.png')
+      audio#h5_media(src='http://7xszcp.com2.z0.glb.clouddn.com/huhk.mp3',loop='loop',preload='',autoplay='autoplay')
+        source(src='http://7xszcp.com2.z0.glb.clouddn.com/huhk.mp3', type='audio/ogg')
+        source(src='http://7xszcp.com2.z0.glb.clouddn.com/huhk.mp3', type='audio/mpeg')  
+    .main
+      // 首页
+      section.page1.page1_click
+        div
+          img.index_logo(src='/images/201604/index_logo.png')
+          img.index_tqcj.animated.bounceInRight(src='/images/201604/index_tqcj.png')
+          img.index_moneyqq.animated.bounceInDown(src='/images/201604/index_moneyqq.png')
+          img.index_cloud.animated.bounceInDown(src='/images/201604/index_cloud.png')
+          img.index_title.animated.bounceInDown(src='/images/201604/index_title.png')
+          img.index_dp(src='/images/201604/index_dp.png')
+          img.index_watchqq.animated.pulse(src='/images/201604/index_watchqq.png')
+          img.index_redqq(src='/images/201604/index_redqq.png')
+          img.index_tree.animated.bounceInDown(src='/images/201604/index_tree.png')
+          img.index_grass.animated.bounceInUp(src='/images/201604/index_grass.png')
+          img.index_people.animated.bounceInUp(src='/images/201604/index_people.png')
+          img.index_watch.animated.pulse(src='/images/201604/index_watch.png')
+          img.index_arrow.animated.pulse(src='/images/201604/index_arrow.png')
+      // 内容页中的内容一
+      section.page2.page2_click
+        div.dongtai
+          img.page2_tqxzb.animated.bounceInDown(src='/images/201604/page2_tqxzb.png')
+          img.page2_title.animated.bounceInDown(src='/images/201604/page2_title.png')
+          img.page2_people.animated.bounceInLeft(src='/images/201604/page2_people.png')
+          img.page2_a.imgHov1.animated.bounceInUp(src='/images/201604/page2_a.png')
+          img.page2_changea.imgHov2(src='/images/201604/page2_changea.png', style='display:none;')
+          img.page2_b.imgHov3.animated.bounceInUp(src='/images/201604/page2_b.png')
+          img.page2_changeb.imgHov4(src='/images/201604/page2_changeb.png', style='display:none;')
+          img.page2_c.imgHov5.animated.bounceInUp(src='/images/201604/page2_c.png')
+          img.page2_changec.imgHov6(src='/images/201604/page2_changec.png', style='display:none;')
+          img.index_arrow.animated.pulse(src='/images/201604/index_arrow.png')
+      // 内容页中的内容二
+      section.page3.page3_click
+        div.dongtai
+          img.page3_title.animated.bounceInDown(src='/images/201604/page3_title.png')
+          img.page3_tqxzb.animated.bounceInDown(src='/images/201604/page3_tqxzb.png')
+          img.page3_could(src='/images/201604/page3_could.png')
+          img.page3_a.imgHov01.animated.bounceInUp(src='/images/201604/page3_a.png')
+          img.page3_changea.imgHov02(src='/images/201604/page3_changea.png', style='display:none;')
+          img.page3_b.imgHov03.animated.bounceInUp(src='/images/201604/page3_b.png')
+          img.page3_changeb.imgHov04(src='/images/201604/page3_changeb.png', style='display:none;')
+          img.page3_c.imgHov05.animated.bounceInUp(src='/images/201604/page3_c.png')
+          img.page3_changec.imgHov06(src='/images/201604/page3_changec.png', style='display:none;')
+          img.page3_d.imgHov07.animated.bounceInUp(src='/images/201604/page3_d.png')
+          img.page3_changed.imgHov08(src='/images/201604/page3_changed.png', style='display:none;')
+          img.index_arrow.animated.pulse(src='/images/201604/index_arrow.png')
+      //抽奖页面
+      section.page4.page4_click
+        div.dongtai
+          .pr_bg
+            img.bg_content
+            //img.bg_content(src='/images/201604/get_watch.png')
+            img.h5_close(src='/images/201604/close_03.png')
+            img.h5_closeend(src='/images/201604/close_03.png')
+          img.last_logo(src='/images/201604/last_logo.png')
+          img.last_tqxzb.animated.bounceInDown(src='/images/201604/last_tqxzb.png')
+          img.last_sun.animated.pulse(src='/images/201604/last_sun.png')
+          img.last_tyx2.animated.bounceInDown(src='/images/201604/last_tyx2.png')
+          .num_box
+            .num
+            .num
+            .num
+          //if user.currentLottery < user.totalLottery
+            img.last_prize.last_btnPrize.animated.pulse(src='/images/201604/last_prize.png')
+          //else
+            //img.last_prize.btnnew_prize.animated.pulse(src='/images/201604/last_prize.png')
+          img.last_prize.last_btnPrize.animated.pulse(src='/images/201604/last_prize.png')
+          img.last_active.last_actclick1(src='/images/201604/last_active.png')
+          img.last_awards.last_actclick2(src='/images/201604/last_awards.png')
+          img.last_shop(src='/images/201604/last_shop.png')
+          //img.index_arrow.animated.pulse(src='/images/201604/index_arrow.png')
+    // 活动介绍
+    .h5actpl_show(style='display:none;')
+      img.last_colbtn1(src='/images/201604/last_close.png')
+      h4.last_acth 活动介绍
+      p.last_acttxt1
+        | 1、抽奖机会
+        br
+        |                 -参与游戏，每人有一次抽奖机会；
+        br
+        |                 -转发朋友圈后可获得第二次抽奖机会；
+        br
+        |                 -每人最多领取一份奖品。
+        br
+      //p.last_acttxt2
+        | 2、返现券使用
+        br
+        |                 -用户抽中返现券成功领取并存入微信卡包；
+        br
+        |                 -客服人员通过微信与中奖用户联系；
+        br
+        |                 -用户购机后给予好评；
+        br
+        |                 -用户凭借返现券卡号等信息联系客服人员；
+        br
+        |                 -客服人员核实信息，当返还现金。
+    // 中奖名单
+    .prizelist_show(style='display:none;')
+      img.last_colbtn2(src='/images/201604/last_close.png')
+      .h5prize_content
+        table
+            for lottery in lotUsers
+                if lottery.wxuserid
+                    tr
+                        td(style='font-size:10px;')=lottery.wxuserid.nickname
+                        td(style='padding-left:80px;font-size:10px;')=lottery.type == 'redPack_1'? '获得红包一个': '获得手表一只'
+  script(type='text/javascript',src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js")
+  script(type="text/javascript").
+    var isChecked=[],pageChecked=[];
+    $(function() {
+        $(".main").onepage_scroll({
+            sectionContainer: "section",
+            easing: 'ease'
+        });
+        $('.last_btnPrize').bind("touchstart",
+        function() {
+            $.ajax({
+                url:'/marking/201604/lottery',
+                dataType: 'json',
+                type: "POST",
+                success: function(data)	{
+                    //alert(JSON.stringify(data));
+                    if(data.isSuccess) {
+                        var code = 333;
+                        if(data.lottery.type === 'redPack_1') {
+                            code = 111;
+                        } else if(data.lottery.type === 'watch') {
+                            code = 222;
+                        } else{
+                            code = 333;
+                        }
+                        lottery(code);
+                    } else {
+                        alert(data.msg);
+                    }
+                },
+                error: function(xhr,textStatus,error){
+                }
+            });
+        });
+        $.ajax({
+            url:'/common/wxConfig?url='+encodeURIComponent($(location).attr('href')),
+            dataType: 'json',
+            type: "GET",
+            success: function(data)	{
+                wx.config(data);
+            },
+            error: function(xhr,textStatus,error){
+                alert('获取wx.config时错误！'); 
+            }
+        });
+        
+        wx.ready(function() {
+            wx.onMenuShareTimeline({
+                title: ' 踏青有奖：10000个微信私包任性派，欢酷儿童电话手表免费拿！', // 分享标题
+                link: 'http://wx.huukuu.cn/marking/201604', // 分享链接
+                imgUrl: 'http://wx.huukuu.cn/images/201604/sharelogo.jpg', // 分享图标
+                success: function () {
+                    $.post('/marking/201604/shareCallback',{},function(result) {
+                        //alert('分享到朋友圈成功')；
+                        //window.location.href = 'http://wx.huukuu.cn/marking/201604';
+                    });
+                },
+                cancel: function () {
+                    
+                }
+            });
+            wx.onMenuShareAppMessage({
+                title: ' 踏青有奖：10000个微信私包任性派，欢酷儿童电话手表免费拿！', // 分享标题
+                desc: ' 踏青有奖：10000个微信私包任性派，欢酷儿童电话手表免费拿！',
+                link: 'http://wx.huukuu.cn/marking/201604', // 分享链接
+                imgUrl: 'http://wx.huukuu.cn/images/201604/sharelogo.jpg', // 分享图标
+                success: function () { 
+                    // 用户确认分享后执行的回调函数
+                },
+                cancel: function () { 
+                    // 用户取消分享后执行的回调函数
+                    alert('failed');
+                }
+            });
+        });
+    });
+
+    var clientWidth, serverWidth; (function(doc, win) {
+        var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange': 'resize',
+        recalc = function() {
+            clientWidth = docEl.clientWidth;
+            if (!clientWidth) return;
+            docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+            serverWidth = 20 * (clientWidth / 320);
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+    //内容一页中的选题A,B,C
+    $(".imgHov1").bind("touchstart",function(e){
+        //alert("12");
+        isChecked.push("imgHov1");
+        $(".imgHov2").show();
+        $(".imgHov1").hide();
+        if (e && e.stopPropagation){
+        e.stopPropagation();
+    }else{
+        window.event.cancelBubble=true;
+        console.log("ok");
+        }
+    });
+    $(".imgHov3").bind("touchstart",function(e){
+        isChecked.push("imgHov3");
+        $(".imgHov4").show();
+        $(".imgHov3").hide();
+    if (e && e.stopPropagation){
+        e.stopPropagation();
+    }else{
+        window.event.cancelBubble=true
+    }
+    });
+    $(".imgHov5").bind("touchstart",function(e){
+        isChecked.push("imgHov5");
+        $(".imgHov6").show();
+        $(".imgHov5").hide();
+    if (e && e.stopPropagation){
+        e.stopPropagation();
+    }else{
+        window.event.cancelBubble=true
+        }	
+    });
+    //内容二页中的选题A,B,C,D
+    $(".imgHov01").bind("touchstart",function(e){
+        //isChecked.push("imgHov01");
+        pageChecked.push("imgHov01");
+        $(".imgHov02").show();
+        $(".imgHov01").hide();
+    if (e && e.stopPropagation){
+        e.stopPropagation();
+    }else{
+        window.event.cancelBubble=true
+        }
+    });
+    $(".imgHov03").bind("touchstart",function(e){
+        //isChecked.push("imgHov03");
+        pageChecked.push("imgHov03");
+        $(".imgHov04").show();
+        $(".imgHov03").hide();
+    if (e && e.stopPropagation){
+        e.stopPropagation();
+    }else{
+        window.event.cancelBubble=true
+        }
+    });
+    $(".imgHov05").bind("touchstart",function(e){
+        //isChecked.push("imgHov05");
+        pageChecked.push("imgHov05");
+        $(".imgHov06").show();
+        $(".imgHov05").hide();
+    if (e && e.stopPropagation){
+        e.stopPropagation();
+    }else{
+        window.event.cancelBubble=true
+        }
+    });
+    $(".imgHov07").bind("touchstart",function(e){
+        //isChecked.push("imgHov07");
+        //pageChecked.push("imgHov07");
+        $(".imgHov08").show();
+        $(".imgHov07").hide();
+    if (e && e.stopPropagation){
+        e.stopPropagation();
+    }else{
+        window.event.cancelBubble=true
+        }
+    });
+    //点击抽奖页面中的活动介绍显示活动介绍面板
+    $(".last_actclick1").bind("touchstart",
+    function() {
+        $(".h5actpl_show").show();
+    });
+    $(".last_colbtn1").bind("touchstart",
+    function() {
+        $(".h5actpl_show").hide();
+    });
+    //点击抽奖页面中的中奖名单显示中奖名单面板
+    $(".last_actclick2").bind("touchstart",
+    function() {
+        $(".prizelist_show").show();
+    });
+    $(".last_colbtn2").bind("touchstart",
+    function() {
+        $(".prizelist_show").hide();
+    });
+    //点击首页显示内容一页
+    //$(".page1_click").bind("touchstart",
+    //function() {
+        //$(".page2_click").show();
+    //});
+    //点击内容一页显示内容二页
+    //$(".page2_click").bind("touchstart",
+    //function() {
+        //$(".page3_click").show();
+    //});
+    //点击内容二页显示抽页
+    //$(".page3_click").bind("touchstart",
+    //function() {
+        //$(".page4_click").show();
+    //});
+    //点击关闭按钮关闭红包或是手表弹框
+    $(".h5_close").bind("touchstart",function() {
+        $('.bg_content').css('display','none');
+        $('.h5_close').css('display','none');
+    });
+    $(".h5_closeend").bind("touchstart",function() {
+        $('.bg_content').css('display','none');
+        $('.h5_closeend').css('display','none');
+    });
+    //音乐播放
+    var myVideo=document.getElementById("h5_media");
+    var ratateH5 = false;
+    $('.stand_music').click(function(){
+        if (ratateH5) {
+            $('.stand_music').addClass('rotate');
+            myVideo.play();
+            ratateH5 = false;
+        }else{
+            $('.stand_music').removeClass('rotate');
+            myVideo.pause();
+            ratateH5 = true;
+        }   
+    })        
+    //抽奖功能
+    function numRand() {
+        var rand = parseInt(Math.random() * 4);
+        switch (rand) {
+        case 1:
+            rand = 111;
+            break;
+        case 2:
+            rand = 222;
+            break;
+        default:
+            rand = 333;
+        }
+        return rand;
+    }
+    var isBegin = false;
+    var lottery = function(result) {
+        var u;
+        var num = 4.5 * serverWidth;
+        u = num;
+        if (isBegin) return false;
+        isBegin = true;
+        $(".num").css('backgroundPositionY', 0);
+        var num_arr = (result + '').split('');
+        $(".num").each(function(index) {
+            var _num = $(this);
+            setTimeout(function() {
+                _num.animate({
+                    backgroundPositionY: (u * 60) - (u * num_arr[index])
+                },
+                {
+                    duration: 6000 + index * 3000,
+                    easing: "easeInOutCirc",
+                    complete: function() {
+                        if ($(".num").length == (index + 1)) {
+                            isBegin = false
+                            if (num_arr[0] == num_arr[1] && num_arr[0] == num_arr[2]) {
+                                if (num_arr[0] != 1 && num_arr[0] != 2) return false; //没中奖
+                                if (num_arr[0] == 1) {
+                                    console.log('抽中红包');
+                                    $('.bg_content').css('display','block');
+                                    $('.h5_close').css('display','block');
+                                    $('.bg_content').attr('src','/images/201604/get_money.png');  
+                                }
+                                if (num_arr[0] == 2) {
+                                    console.log('抽中手表');
+                                    $('.bg_content').css('display','block');
+                                    $('.h5_close').css('display','block');
+                                    $('.bg_content').attr('src','/images/201604/get_watch.png');
+                                }
+                            }
+                        };
+                    }
+                });
+            },
+            index * 300);
+        });
+    }
+    //点击了解/购买链接到京东
+    $('.last_shop').bind("touchstart",
+    function() {
+        window.location.href = "http://m.jd.com/product/10085542277.html";
+    })
